@@ -13,6 +13,7 @@
 		55794864267B38F200359D5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55794863267B38F200359D5B /* Preview Assets.xcassets */; };
 		5579486F267B38F200359D5B /* Maps_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579486E267B38F200359D5B /* Maps_SwiftUITests.swift */; };
 		5579487A267B38F200359D5B /* Maps_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55794879267B38F200359D5B /* Maps_SwiftUIUITests.swift */; };
+		5579488A267B3A3100359D5B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55794889267B3A3100359D5B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		55794875267B38F200359D5B /* Maps SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55794879267B38F200359D5B /* Maps_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		5579487B267B38F200359D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55794889267B3A3100359D5B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				5579485C267B38F100359D5B /* Maps_SwiftUIApp.swift */,
 				5579485E267B38F100359D5B /* ContentView.swift */,
+				55794889267B3A3100359D5B /* MapView.swift */,
 				55794860267B38F200359D5B /* Assets.xcassets */,
 				55794865267B38F200359D5B /* Info.plist */,
 				55794862267B38F200359D5B /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5579485F267B38F100359D5B /* ContentView.swift in Sources */,
+				5579488A267B3A3100359D5B /* MapView.swift in Sources */,
 				5579485D267B38F100359D5B /* Maps_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
